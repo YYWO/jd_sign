@@ -4,6 +4,7 @@ MAINTAINER zhx47
 EXPOSE 8080
 WORKDIR /app
 VOLUME /app/data/
+COPY start.sh /app/
 
 RUN chmod +x /app/start.sh
 
